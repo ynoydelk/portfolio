@@ -16,7 +16,7 @@
 
 body {
     height: 100vh;
-    background-image: url(../imagens/backg.png);
+    background-image: url(../imagens/backg03.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -25,7 +25,7 @@ body {
 header{
     padding: 5px;
     border-radius: 0px 0px 20px 20px;
-    background-color: aliceblue;
+    background: linear-gradient(to right, #05161A, #072E33);
 }
 
 header h1{
@@ -35,6 +35,7 @@ header h1{
 }
 
 main{
+    height: 100%;
     padding: 20px;
     margin: auto;
     margin-top: 30px;
@@ -51,6 +52,22 @@ img{
     width: 200px;
 }
 
+.sobre_mim{
+    padding: 15px;
+    margin-bottom: 10px;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.sobre_mim h1{
+    font-family: var(--young);
+}
+
+.sobre_mim p{
+    font-size: 1.3em;
+    font-family: var(--nunito);
+}
+
 #projetos{
     padding: 15px;
     border-radius: 20px;
@@ -62,10 +79,12 @@ img{
 }
 
 #projetos h2{
+    font-family: var(--young);
     padding-bottom: 30px;
 }
 
 #projetos a{
+    font-family: var(--nunito);
     border-radius: 13px;
     padding: 9px;
     text-decoration: none;
