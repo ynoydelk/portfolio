@@ -4,3 +4,9 @@ button.forEach(btn => {
         btn.blur()
     })
 })
+
+const btnMinecraft = document.querySelector('.btn-minecraft');
+btnMinecraft.addEventListener('click', btnMinecraft); 
+function btnMinecraft(){
+    window.location.href = '/HTML/orders.html'
+}
