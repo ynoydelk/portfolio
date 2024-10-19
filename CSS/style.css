@@ -89,3 +89,59 @@ body {
   font-size: 2em;
   margin-bottom: 50px;
 }
+
+@media (max-width: 768px) {
+  #header {
+    flex-direction: column;
+  }
+
+  #navbar-header ul {
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  #navbar-header ul li {
+    margin: 10px 0;
+  }
+
+  #first-section {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  #projects-section {
+    height: auto;
+    margin: 20px 10px;
+  }
+
+  #projects-section img {
+    width: 100px;
+  }
+}
+
+@media (max-width: 480px) {
+  #header {
+    padding: 10px;
+  }
+
+  #first-section {
+    margin: 10px;
+    padding: 10px;
+  }
+
+  #projects-section {
+    margin: 10px 5px;
+    padding: 10px;
+  }
+
+  #projects-section img {
+    width: 80px;
+  }
+
+  #text-project {
+    font-size: 1.2em;
+  }
+}
