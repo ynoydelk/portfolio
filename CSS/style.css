@@ -40,12 +40,14 @@ body {
 #avatar-ynoydelk img {
   width: 150px;
   height: 150px;
+  border: 2px solid #e8704b;
+  box-shadow: 0px 9px 32px 0px #e8704b;
   border-radius: 50%;
 }
 
 #aboutme {
   text-align: justify;
-  padding-left: 30px;
+  padding: 15px;
 }
 
 #first-section {
@@ -95,6 +97,10 @@ body {
     flex-direction: column;
   }
 
+  #text-header{
+    text-align: center;
+  }
+
   #navbar-header ul {
     padding: 0;
     display: flex;
@@ -125,6 +131,10 @@ body {
 @media (max-width: 480px) {
   #header {
     padding: 10px;
+  }
+
+  #text-header{
+    text-align: center;
   }
 
   #first-section {
