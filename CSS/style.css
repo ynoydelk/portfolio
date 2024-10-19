@@ -1,55 +1,91 @@
-@import url('/ASSETS/Minecraftia-Regular.ttf');
 * {
-  font-family: 'Minecraftia', sans-serif;}
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: white;
+}
 
 body {
-  background-image: url(/ASSETS/images/wp12865823-aesthetic-pastel-4k-wallpapers.jpg);
-  background-position: center;
-  background-size: cover;
-  overflow: hidden;}
-
-.container {
   height: 100vh;
-  width: 100%;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;}
+  background-color: #252330;
+}
 
-.menu {
+#header {
   display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  width: 33.3%;
-  margin-top: 2rem;
-  margin-bottom: 1.25rem;}
+  justify-content: space-around;
+  background-color: #3B3A4A;
+  padding: 15px;
+}
 
-.menu-options {
+#text-header {
+  color: #F5F9F8;
+}
+
+#navbar-header ul {
+  list-style-type: none;
+  margin-top: 10px;
+}
+
+#navbar-header ul li {
+  display: inline;
+  margin: 0 15px;
+}
+
+#navbar-header ul li a {
+  color: #F5F9F8;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+#avatar-ynoydelk img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+}
+
+#aboutme {
+  text-align: justify;
+  padding-left: 30px;
+}
+
+#first-section {
+  margin: 15px;
+  padding: 15px;
   display: flex;
   justify-content: space-between;
-  align-items: center;
-  width: 33.3%;}
+  background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border-radius: 20px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  box-shadow: 0 9px 32px 0 rgba(0, 0, 0, 0.37);
+}
 
-.menu-options .btn-minecraft:first-child {
-  margin-right: 10px;}
+#projects-section {
+  height: 85vh;
+  margin-left: 70px;
+  margin-right: 70px;
+  padding: 15px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  background-image: url(../ASSETS/images/girl-wallpaper.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 20px;
+  border: 2px solid #e8704b;
+  box-shadow: 0 9px 32px 0 #e8704b;
+  text-align: center;
+}
 
-.btn-minecraft {
-  background: #727272;
-  color: rgb(247, 247, 247);
-  width: 100%;
-  padding: .5rem 0;
-  margin-bottom: .75rem;
-  text-shadow: 2px 2px 0 rgba(0, 0, 0, 0.8);
-  font-size: 1rem;
-  letter-spacing: .025em;
-  border: 2px solid rgba(0, 0, 0, 1);
-  box-shadow: inset 3px 3px 0 rgba(255, 255, 255, 0.5),inset -3px -3px 0 rgba(0, 0, 0, 0.5);
-  cursor: pointer;}
+#projects-section img {
+  width: 200px;
+  border-radius: 14px;
+  margin-left: 20px;
+}
 
-.btn-minecraft:hover {
-  background: rgba(115, 107, 221, 1);}
-
-.btn-minecraft:focus {
-  color: rgb(246, 246, 44);
-  outline: none;}
+#text-project {
+  font-size: 2em;
+  margin-bottom: 50px;
+}
