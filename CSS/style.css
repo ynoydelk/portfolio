@@ -67,6 +67,7 @@ body {
   height: 85vh;
   margin-left: 70px;
   margin-right: 70px;
+  margin-bottom: 70px;
   padding: 15px;
   display: flex;
   flex-wrap: wrap;
@@ -92,12 +93,18 @@ body {
   margin-bottom: 50px;
 }
 
+footer{
+  background-color: #252330;
+  padding: 15px;
+  text-align: center;
+}
+
 @media (max-width: 768px) {
   #header {
     flex-direction: column;
   }
 
-  #text-header{
+  #text-header {
     text-align: center;
   }
 
@@ -119,7 +126,7 @@ body {
   }
 
   #projects-section {
-    height: auto;
+    height: 60vh;
     margin: 20px 10px;
   }
 
@@ -133,7 +140,7 @@ body {
     padding: 10px;
   }
 
-  #text-header{
+  #text-header {
     text-align: center;
   }
 
@@ -143,6 +150,7 @@ body {
   }
 
   #projects-section {
+    height: 50vh;
     margin: 10px 5px;
     padding: 10px;
   }
