@@ -65,7 +65,7 @@ main {
     width: 100%;
     padding: 2rem;
     text-align: center;
-    background-image: url(/assets/images/wallpaper-wumbus-black.png);
+    background-image: url(../images/wallpaper-wumbus-black.png);
     background-position: right, center;
     background-size: cover;
     box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.473);
@@ -95,7 +95,7 @@ main {
     border-top: solid #a2b1e7;
     border-right: solid #a2b1e7;
     border-left: solid #a2b1e7;
-    background-image: url(/assets/images/discord-purple.png);
+    background-image: url(../images/discord-purple.png);
     background-position: right, center;
     background-size: cover;
     box-shadow: 0px 0px 27px 1px #a2b1e7;
